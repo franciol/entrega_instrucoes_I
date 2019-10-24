@@ -1,5 +1,5 @@
 Analysis & Synthesis report for LOVELY
-Thu Oct 24 10:16:39 2019
+Thu Oct 24 10:43:23 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -36,7 +36,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Failed - Thu Oct 24 10:16:39 2019           ;
+; Analysis & Synthesis Status        ; Failed - Thu Oct 24 10:43:23 2019           ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; LOVELY                                      ;
 ; Top-level Entity Name              ; TOPZERA                                     ;
@@ -162,7 +162,7 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Thu Oct 24 10:16:30 2019
+    Info: Processing started: Thu Oct 24 10:43:15 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off LOVELY -c LOVELY
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -170,6 +170,7 @@ Info (12021): Found 2 design units, including 1 entities, in source file ULA.vhd
     Info (12022): Found design unit 1: ULA-ulala File: /home/francisco/Documentos/Insper/6Semestre/DesignComputadores/InstrucaoR/ULA.vhd Line: 18
     Info (12023): Found entity 1: ULA File: /home/francisco/Documentos/Insper/6Semestre/DesignComputadores/InstrucaoR/ULA.vhd Line: 5
 Error (10500): VHDL syntax error at UControle.vhd(17) near text ")";  expecting "(", or an identifier, or  unary operator File: /home/francisco/Documentos/Insper/6Semestre/DesignComputadores/InstrucaoR/UControle.vhd Line: 17
+Error (10500): VHDL syntax error at UControle.vhd(18) near text "END";  expecting "(", or an identifier ("end" is a reserved keyword), or  unary operator File: /home/francisco/Documentos/Insper/6Semestre/DesignComputadores/InstrucaoR/UControle.vhd Line: 18
 Info (12021): Found 0 design units, including 0 entities, in source file UControle.vhd
 Info (12021): Found 2 design units, including 1 entities, in source file TOPZERA.vhd
     Info (12022): Found design unit 1: TOPZERA-TOPPER File: /home/francisco/Documentos/Insper/6Semestre/DesignComputadores/InstrucaoR/TOPZERA.vhd Line: 15
@@ -193,10 +194,10 @@ Info (12021): Found 2 design units, including 1 entities, in source file BancoRe
     Info (12022): Found design unit 1: BancoReg-dontWorry File: /home/francisco/Documentos/Insper/6Semestre/DesignComputadores/InstrucaoR/BancoReg.vhd Line: 29
     Info (12023): Found entity 1: BancoReg File: /home/francisco/Documentos/Insper/6Semestre/DesignComputadores/InstrucaoR/BancoReg.vhd Line: 6
 Warning (12019): Can't analyze file -- file LOVELY.vhd is missing
-Error: Quartus Prime Analysis & Synthesis was unsuccessful. 1 error, 2 warnings
-    Error: Peak virtual memory: 931 megabytes
-    Error: Processing ended: Thu Oct 24 10:16:39 2019
+Error: Quartus Prime Analysis & Synthesis was unsuccessful. 2 errors, 2 warnings
+    Error: Peak virtual memory: 929 megabytes
+    Error: Processing ended: Thu Oct 24 10:43:24 2019
     Error: Elapsed time: 00:00:09
-    Error: Total CPU time (on all processors): 00:00:24
+    Error: Total CPU time (on all processors): 00:00:23
 
 

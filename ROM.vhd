@@ -25,7 +25,7 @@ ARCHITECTURE takitaki OF ROM IS
     BEGIN
         -- Inicializa os endereços e escreve ASSEMBLY!!!! :
 		  
-        tmp(1) := x"00000000"; 
+        tmp(1) := x"00000000";
         
 		      
 
