@@ -12,7 +12,8 @@ entity CONTADOR is
     port
     (
         -- Input ports
-        ENTRADA : in  std_logic_vector(larguraDadoEntrada-1 downto 0);
+        ENTRADA_A : in std_logic_vector(larguraDadoEntrada-1 downto 0);
+        ENTRADA_B : in std_logic_vector(larguraDadoEntrada-1 downto 0);
         -- Output ports
         SAIDA: out std_logic_vector(larguraDadoSaida-1 downto 0)
     );
@@ -20,5 +21,5 @@ end entity;
 
 architecture NOTSIQUEIRA of CONTADOR is
 begin
-    SAIDA <= std_logic_vector(unsigned(ENTRADA) + 4);
+    SAIDA <= std_logic_vector(unsigned(ENTRADA_A) + unsigned(ENTRADA_B));
 end architecture;
